@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SphereChaser : MonoBehaviour
@@ -21,8 +18,5 @@ public class SphereChaser : MonoBehaviour
         {
             transform.Translate(velocity * Time.deltaTime);
         }
-        
-        
-
     }
 }
